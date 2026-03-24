@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+    <head>
+        <title>Projeto</title>
+        <meta charset="UTF-8">
+        <link rel="base.css">
+    </head>
+    <body>
+        <div>
+            <a href="">S</a>
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+        </div>
+    </body>
+</html>
