@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <title>Pinky</title>
+</head>
+<body>
+    <h1> </h1>
+    <form>
+        <div>
+            <label for="nome">Nome</label>
+            <input id="nome">
+        </div>
+        
+        <div>
+            <label for="sobrenome">Sobrenome</label>
+            <input id="sobrenome">
+        </div>
+
+        <div>
+            <label for="idade">Idade</label>
+            <input id="idade" type="number">
+        </div>
+        <div>
+            <label for="genero">Gênero</label>
+            <div>
+                <input type="radio" name="genero" value="homem">
+                <label for="genero">Masculino</label>
+                <input type="radio" name="genero" value="mulher">
+                <label for="genero">Feminino</label>
+                <input type="radio" name="genero" value="outro">
+                <label for="genero">Outro</label>
+            </div>
+        </div>
+        <div>
+            <label for="familia">Membros em sua casa</label>
+        </div>
+        <label for="familia">Pai</label>
+        <input type="checkbox" name="parente" value="pai">
+        <label for="familia">Mãe</label>
+        <input type="checkbox" name="parente" value="mae">
+        <label for="familia">Filhos</label>
+            <input type="checkbox" name="parente" value="filho">
+            <label for="familia">Cônjuge</label>
+            <input type="checkbox" name="parente" value="conjuge">
+            <label for="familia">Tio(s)</label>
+            <input type="checkbox" name="parente" value="conjuge">
+            <label for="familia">Avó(s)</label>
+            <input type="checkbox" name="parente" value="conjuge">
+        <div>
+            <label for="descrição">Descrição</label>
+            <div>
+                <textarea rows="15" cols="60"></textarea>
+            </div>
+        </div>
+    </form>
+    <form action="contact.php" method="get">
+        <div>
+            <label for="campo-login">Salvar contato</label>
+        </div>
+        <div>
+            <label for="campo-login">Nome</label>
+            <input id="campo-login" type="text" name="login">
+        </div>
+        <div>
+            <label for="campo-data">Data de nascimento</label>
+            <input id="campo-data" type="date" name="data_nascimento">
+        </div>
+        <div>
+            <label for="campo-email">Email</label>
+            <input id="campo-email" type="email" name="email">
+        </div>
+        <div>
+            <label for="campo-senha">Senha</label>
+            <input id="campo-senha" type="password" name="senha">
+        </div>
+        <button type="submit">Registrar contato</button>
+    </form>
+</body>
+</html>
